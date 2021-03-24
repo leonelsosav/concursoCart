@@ -1,0 +1,91 @@
+.divPregunta {
+    margin-left: 50px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.tituloE, .rubrica, .botonCalificacion {
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+}
+
+.tituloE {
+    font-weight: bold;
+}
+
+.seleccionado {
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFB347;
+    color: black;
+    border: 0;
+    font-weight: bold;
+    width: 22.5%;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+.botonCalificacion {
+    margin: 10px;
+    padding: 10px;
+    background-color: #8898AA;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    width: 22.5%;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+
+.botonCalificacion:hover {
+    background-color: #555f6b;
+    cursor: pointer;
+}
+
+.seleccionado:hover {
+    background-color: #d8973d;
+    cursor: pointer;
+}
+
+.resultados {
+    background-color: white;
+    margin: 20px;
+    display: inline-block;
+}
+
+#puntos{
+    top: 20px;
+    margin: 20px;
+}
+
+#btnSiguientePag {
+    display: block;
+    background-color: #FFB347;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    .botonCalificacion {
+        width: 90%;
+    }
+    .seleccionado {
+        width: 90%;
+    }
+}
+
+button {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}

@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color: #EDF1F5;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #2F323E;
+}
+
+.logo {
+    margin-left: 50px;
+    max-height: 50px
+}
+
+#menu {
+    font-size: 30px;
+    display: none;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+#sidenav {
+    height: 100%;
+    width: 220px;
+    position: absolute;
+    z-index: 1;
+    top: 54px;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#sidenav a {
+    padding: 15px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #2F323E;
+    display: block;
+}
+
+#sidenav a:hover {
+    background-color: #EDF1F5;
+}
+
+#selected {
+    background-color: #dedfe0;
+}
+
+.workSpace {
+    margin-left: 220px;
+}
+
+.topBar {
+    background-color: #FFA500;
+    overflow: hidden;
+}
+
+.titulo, .titulo2 {
+    margin-left: 20px;
+    color: white;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.titulo2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.contenido {
+    background-color: white;
+    margin: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.infoCartel {
+    background-color: white;
+    display: none;
+    margin: 20px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+    #sidenav {
+        display: none;
+    }
+    .workSpace {
+        margin-left: 0;
+    }
+    #menu {
+        display: block;
+    }
+    #sidenav.show {
+        display: block;
+    }
+}

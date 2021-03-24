@@ -1,0 +1,42 @@
+Date : 2021-03-14 02:07:46
+Directory : d:\negoc\Documents\concursoCartelesEscuela\public
+Total : 13 files,  690 codes, 22 comments, 85 blanks, all 797 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| HTML       |          6 |        300 |          3 |         30 |        333 |
+| JavaScript |          4 |        245 |         19 |         27 |        291 |
+| CSS        |          3 |        145 |          0 |         28 |        173 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                              | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                 |         13 |        690 |         22 |         85 |        797 |
+| js                                                                                |          4 |        245 |         19 |         27 |        291 |
+| js\Classes                                                                        |          2 |         56 |         19 |          5 |         80 |
+| styles                                                                            |          3 |        145 |          0 |         28 |        173 |
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                          | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\negoc\Documents\concursoCartelesEscuela\public\404.html                        | HTML       |         32 |          0 |          2 |         34 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\adminCarteles.html              | HTML       |         33 |          0 |          6 |         39 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\adminJueces.html                | HTML       |         87 |          0 |          6 |         93 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\adminPreguntas.html             | HTML       |         33 |          0 |          5 |         38 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\index.html                      | HTML       |         58 |          3 |          5 |         66 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\Classes\DBDriver.js          | JavaScript |         49 |          0 |          4 |         53 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\Classes\juez.js              | JavaScript |          7 |         19 |          1 |         27 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\adminJuecesCodigo.js         | JavaScript |        156 |          0 |         14 |        170 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\nueva-evaluacionCodigo.js    | JavaScript |         33 |          0 |          8 |         41 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\nueva-evaluacion.html           | HTML       |         57 |          0 |          6 |         63 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\styles\adminJuecesStyle.css     | CSS        |         43 |          0 |          9 |         52 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\styles\diseñoBase.css           | CSS        |         91 |          0 |         18 |        109 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\styles\nuevaEvaluacionStyle.css | CSS        |         11 |          0 |          1 |         12 |
+| Total                                                                             |            |        690 |         22 |         85 |        797 |
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

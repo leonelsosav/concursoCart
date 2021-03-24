@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/diseñoBase.css">
+    <link rel="stylesheet" href="styles/diseñoEvaluacionP.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/icono.png"/>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+    <title>Concurso De Carteles</title>
+</head>
+
+<body onload="sesion()">
+    <header class="header">
+        <img src="img/logo.PNG" alt="logo" class="logo">
+        <i id="menu" class="fas fa-bars"></i>
+    </header>
+
+    <div id="sidenav">
+        <a href="nueva-evaluacion.html"">Nueva Evaluacion</a>
+        <a id="admC" href="adminCarteles.html">Admin de carteles</a>
+        <a id="admP" href="adminPreguntas.html">Admin de preguntas</a>
+        <a id="admJ" href="adminJueces.html">Admin de jueces</a>
+        <a id="admE" href="adminEvaluaciones.html">Evaluaciones</a>
+        <a onclick="cerrarSesion()">Cerrar Sesion</a>
+    </div>
+
+    <div class="workSpace">
+        <div class="topBar">
+            <h4 class="titulo">Criterios De</h4>
+            <h4 class="titulo2">Pertinencia</h4>
+        </div>
+
+        <div id="contenido" class="contenido">
+            <br><br>
+            
+        </div>
+        <div style="background-color: #EDF1F5"><br><br></div>
+        <div class="resultados">
+            <h2 id="puntos">Total de puntos: 0</h2>
+            <button id="btnSiguientePag" onclick="siguienteParte()">Finalizar</button>
+        </div>
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/fire base-analytics.js"></script>
+<script src="/__/firebase/init.js"></script>
+<script src="js/Classes/DBDriver.js"></script>
+<script src="js/Classes/juez.js"></script>
+<script src="js/Classes/cartel.js"></script>
+<script src="js/Classes/pregunta.js"></script>
+<script src="js/Classes/preguntaEvaluacionP.js"></script>
+<script src="js/evaluacionPertinencia.js"></script>
+</html>

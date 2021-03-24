@@ -1,0 +1,62 @@
+.tituloResumen {
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.rowDiv:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rowDiv{
+    text-align: left;
+    border-top: 1px solid rgba(120, 130, 140, 0.13);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.column {
+    float: left;
+    padding: 10px; 
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+}
+
+.leftC {
+    width: 70%;
+}
+
+.rightC {
+    width: 30%;
+}
+
+.puntosResumen{
+    color: red;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.puntosTotal{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.chartContainer{
+    height: 500px;
+    margin: 20px;
+    max-width: 50%;
+}

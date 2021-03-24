@@ -1,0 +1,68 @@
+.controladores{
+    text-align: left;
+}
+
+#File{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+#File + label {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+    background-color: #5361C9;
+    padding: 5px;
+}
+
+.agregar, .editar, .eliminar, .eliminarTodo{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    font-size:15px;
+    color: white;
+    border: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.agregar{
+    background-color:#53c992;
+}
+
+.editar{
+    color: black;
+    background-color:rgb(218, 218, 122);
+}
+
+.eliminar{
+    background-color:rgb(209, 99, 99);
+}
+
+.eliminarTodo{
+    background-color: black;
+}
+
+.agregar:hover, .editar:hover, .eliminar:hover, #File:hover + label, .eliminarTodo:hover{
+    border: 1px solid #FFA500;
+    cursor: pointer;
+}
+
+.nuevoRegistro, .editarRegistro{
+    display: none;
+    width: 80%;
+    border: 1px solid rgb(170, 170, 170);
+    padding: 10px;
+}
+
+.tabla{
+    margin:10px;
+    width: 95%;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/indexStyle.css">
+  <link rel="shortcut icon" href="img/icono.png" />
+  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+  <title>Concurso De Carteles</title>
+</head>
+
+<body onload="sesion()">
+  <br><br><br><br>
+  <br><br><br><br>
+  <br><br><br><br>
+  <div class="formaInicioSesion">
+    <img src="img/logo.PNG" alt="logo" class="logo">
+    <h2 class="titulo">Iniciar Sesion</h2>
+    <input type="text" name="usuario" id="usuario" class="usuario" placeholder="Introduzca su usuario">
+    <br><br>
+    <input type="password" name="contrasena" id="contrasena" class="contrasena" placeholder="Introduzca su contraseña">
+    <br><br>
+    <button class="btn" onclick="iniciarSesion()">Iniciar sesion</button>
+  </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/fire base-analytics.js"></script>
+<script src="/__/firebase/init.js"></script>
+<script src="js/Classes/DBDriver.js"></script>
+<script src="js/indexCodigo.js"></script>
+
+</html>

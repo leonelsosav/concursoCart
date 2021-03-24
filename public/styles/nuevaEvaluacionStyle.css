@@ -1,0 +1,22 @@
+#jueces, #listaCarteles{
+    padding:10px;
+    font-size:18px;
+}
+
+.evaluado{
+    background-color: #53c992;
+}
+
+.pendiente{
+    background-color: rgb(218, 218, 122);
+}
+
+.botonSiguiente{
+    background-color: #FFA500;
+    color:white;
+    border-color: #EDF1F5;
+    padding: 10px;
+    font-size: 20px;
+}
+
+select:focus::-ms-value {background-color: white; color:#000;}

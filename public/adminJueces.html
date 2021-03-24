@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/diseñoBase.css" rel="stylesheet">
+    <link href="styles/diseñoBaseTab.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <link rel="shortcut icon" href="img/icono.png"/>
+    <title>Concurso De Carteles</title>
+</head>
+
+<body onload="sesion()">
+    <header class="header">
+        <img src="img/logo.PNG" alt="logo" class="logo">
+        <i id="menu" class="fas fa-bars"></i>
+    </header>
+
+    <div id="sidenav">
+        <a href="nueva-evaluacion.html">Nueva Evaluacion</a>
+        <a href="adminCarteles.html">Admin de carteles</a>
+        <a href="adminPreguntas.html">Admin de preguntas</a>
+        <a id="selected" href="javascript:void(0)">Admin de jueces</a>
+        <a id="admE" href="adminEvaluaciones.html">Evaluaciones</a>
+        <a onclick="cerrarSesion()">Cerrar Sesion</a>
+    </div>
+
+    <div class="workSpace">
+        <div class="topBar">
+            <h4 class="titulo">ADMINISTRACION DE</h4>
+            <h4 class="titulo2">JUECES</h4>
+        </div>
+
+        <div class="contenido">
+            <br><br>
+            <div class="controladores">
+                <input type="file" name="File" id="File" accept=".csv" onchange="handleFileSelect()">
+                <label for="File">Subir archivo</label>
+                <button class="agregar" onclick="agregarRegistro()">Agregar</button>
+                <button class="editar" onclick="editarRegistro()">Editar</button>
+                <button class="eliminar" onclick="borrarRegistro()">Eliminar</button>
+                <button class="eliminarTodo" onclick="borrarTodo()">Eliminar Todo</button>
+            </div>
+            <div class="tabla">
+                <div id="nuevoRegistro" class="nuevoRegistro">
+                    <label for="JuezNuevoNombre">Nombre:</label>
+                    <input id="JuezNuevoNombre" type="text" />
+                    <br>
+                    <label for="JuezNuevoApellido">Apellidos:</label>
+                    <input id="JuezNuevoApellido" type="text" />
+                    <br>
+                    <button id="agregarNuevoRegistro" class="agregar" onclick="guardarNuevoRegistro()">Agregar</button>
+                    <button id="cancelarNuevoRegistro" class="eliminar" onclick="esconderFormaNuevoRegistro()">Cancelar</button>
+                </div>
+                <div id="editarRegistro" class="editarRegistro">
+                    <label for="JuezNuevoNombreE">Nombre:</label>
+                    <input id="JuezNuevoNombreE" type="text" />
+                    <br>
+                    <label for="JuezNuevoApellidoE">Apellidos:</label>
+                    <input id="JuezNuevoApellidoE" type="text" />
+                    <br>
+                    <button id="guardarEditarRegistro" class="editar" onclick="guardarEditarRegistro()">Editar</button>
+                    <button id="cancelarEditarRegistro" class="eliminar" onclick="esconderFormaEditarRegistro()">Cancelar</button>
+                </div>
+                <br><br>
+                <table id="table_id" class="display">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <br><br>
+        </div>
+    </div>
+    <footer class="footer"></footer>
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/fire base-analytics.js"></script>
+<script src="/__/firebase/init.js"></script>
+<script src="js/Classes/DBDriver.js"></script>
+<script src="js/Classes/juez.js"></script>
+<script src="js/adminJuecesCodigo.js"></script>
+<script src="js/codigoBase.js"></script>
+</html>

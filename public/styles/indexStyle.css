@@ -1,0 +1,51 @@
+body {
+    background-image: url('../img/loginBG.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.formaInicioSesion{
+    display: block;
+    padding: 10px;
+    border: 5px solid white;
+    background-color: black;
+    width:40%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    top: 50%;
+}
+
+.logo{
+    max-width:50%;
+}
+
+h2{
+    color: white;
+    width: 100%;
+}
+
+input[type=text], input[type=password], button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    border: 1px solid white;
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+@media screen and (max-width:1000px) {
+    .formaInicioSesion{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .formaInicioSesion{
+        width: 90%;
+    }
+}

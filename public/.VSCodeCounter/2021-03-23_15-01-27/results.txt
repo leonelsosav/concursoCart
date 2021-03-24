@@ -1,0 +1,65 @@
+Date : 2021-03-23 15:01:27
+Directory : d:\negoc\Documents\concursoCartelesEscuela\public
+Total : 35 files,  2556 codes, 1 comments, 263 blanks, all 2820 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         17 |      1,426 |          1 |        132 |      1,559 |
+| HTML       |         10 |        668 |          0 |         53 |        721 |
+| CSS        |          7 |        435 |          0 |         75 |        510 |
+| Log        |          1 |         27 |          0 |          3 |         30 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                   |         35 |      2,556 |          1 |        263 |      2,820 |
+| js                                                                                  |         17 |      1,426 |          1 |        132 |      1,559 |
+| js\Classes                                                                          |          7 |        250 |          1 |         41 |        292 |
+| styles                                                                              |          7 |        435 |          0 |         75 |        510 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                            | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\negoc\Documents\concursoCartelesEscuela\public\404.html                          | HTML       |         32 |          0 |          2 |         34 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\adminCarteles.html                | HTML       |        121 |          0 |          5 |        126 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\adminJueces.html                  | HTML       |         92 |          0 |          5 |         97 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\adminPreguntas.html               | HTML       |        108 |          0 |          6 |        114 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\evaluacionContenido.html          | HTML       |         53 |          0 |          6 |         59 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\evaluacionForma.html              | HTML       |         58 |          0 |          7 |         65 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\evaluacionPertinencia.html        | HTML       |         53 |          0 |          6 |         59 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\firebase-debug.log                | Log        |         27 |          0 |          3 |         30 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\index.html                        | HTML       |         33 |          0 |          3 |         36 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\Classes\DBDriver.js            | JavaScript |        104 |          0 |          8 |        112 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\Classes\cartel.js              | JavaScript |         10 |          0 |          0 |         10 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\Classes\juez.js                | JavaScript |          7 |          0 |          0 |          7 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\Classes\pregunta.js            | JavaScript |          9 |          0 |          0 |          9 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\Classes\preguntaEvaluacion.js  | JavaScript |         47 |          1 |         11 |         59 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\Classes\preguntaEvaluacionP.js | JavaScript |         33 |          0 |          9 |         42 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\Classes\row.js                 | JavaScript |         40 |          0 |         13 |         53 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\adminCartelesCodigo.js         | JavaScript |        174 |          0 |         13 |        187 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\adminJuecesCodigo.js           | JavaScript |        134 |          0 |         12 |        146 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\adminPreguntasCodigo.js        | JavaScript |        159 |          0 |         13 |        172 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\codigoBase.js                  | JavaScript |         31 |          0 |          3 |         34 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\evaluacionContenido.js         | JavaScript |        117 |          0 |          8 |        125 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\evaluacionForma.js             | JavaScript |        192 |          0 |         12 |        204 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\evaluacionPertinencia.js       | JavaScript |        140 |          0 |          8 |        148 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\indexCodigo.js                 | JavaScript |         37 |          0 |          2 |         39 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\nueva-evaluacionCodigo.js      | JavaScript |         90 |          0 |         10 |        100 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\js\resumenEvaluacion.js           | JavaScript |        102 |          0 |         10 |        112 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\nueva-evaluacion.html             | HTML       |         68 |          0 |          6 |         74 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\resumenEvaluacion.html            | HTML       |         50 |          0 |          7 |         57 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\styles\diseñoBase.css             | CSS        |        102 |          0 |         17 |        119 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\styles\diseñoBaseTab.css          | CSS        |         58 |          0 |         10 |         68 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\styles\diseñoEvaluacion.css       | CSS        |         84 |          0 |         14 |         98 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\styles\diseñoEvaluacionP.css      | CSS        |         78 |          0 |         13 |         91 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\styles\indexStyle.css             | CSS        |         44 |          0 |          6 |         50 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\styles\nuevaEvaluacionStyle.css   | CSS        |         18 |          0 |          4 |         22 |
+| d:\negoc\Documents\concursoCartelesEscuela\public\styles\resumenEvaluacionStyle.css | CSS        |         51 |          0 |         11 |         62 |
+| Total                                                                               |            |      2,556 |          1 |        263 |      2,820 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

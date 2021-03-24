@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/diseñoBase.css">
+    <link rel="stylesheet" href="styles/nuevaEvaluacionStyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/icono.png"/>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+    <title>Concurso De Carteles</title>
+</head>
+
+<body onload="sesion()">
+    <header class="header">
+        <img src="img/logo.PNG" alt="logo" class="logo">
+        <i id="menu" class="fas fa-bars"></i>
+    </header>
+
+    <div id="sidenav">
+        <a id="selected" href="javascript:void(0)">Nueva Evaluacion</a>
+        <a id="admC" href="adminCarteles.html">Admin de carteles</a>
+        <a id="admP" href="adminPreguntas.html">Admin de preguntas</a>
+        <a id="admJ" href="adminJueces.html">Admin de jueces</a>
+        <a id="admE" href="adminEvaluaciones.html">Evaluaciones</a>
+        <a onclick="cerrarSesion()">Cerrar Sesion</a>
+    </div>
+
+    <div class="workSpace">
+        <div class="topBar">
+            <h4 class="titulo">NUEVA</h4>
+            <h4 class="titulo2">EVALUACION</h4>
+        </div>
+
+        <div class="contenido">
+            <br><br>
+            <div class="jueces">Seleccione su nombre en la lista desplegable
+                <br><br>
+                <input list="listaJueces" name="jueces" id="jueces">
+                <datalist id="listaJueces">
+                </datalist>
+            </div>
+            <br><br>
+            <div class="carteles">Seleccione el codigo de cartel a evaluar
+                <br><br>
+                <select id="listaCarteles">
+                </select>
+            </div>
+            <br><br>
+            <div id="infoCartel" class="infoCartel">
+                <h4 id="titulo">Titulo:</h4>
+                <h4 id="autor">Autor:</h4>
+                <h4><a id="hipervinculo" href="" target="_blank">Link del cartel</a><h4>
+                <br>
+            </div>
+            <button id="botonSiguiente" class="botonSiguiente">Evaluar</button>
+            <br><br>
+        </div>
+
+    </div>
+    <footer class="footer"></footer>
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/fire base-analytics.js"></script>
+<script src="/__/firebase/init.js"></script>
+<script src="js/Classes/DBDriver.js"></script>
+<script src="js/Classes/juez.js"></script>
+<script src="js/Classes/cartel.js"></script>
+<script src="js/nueva-evaluacionCodigo.js"></script>
+</html>
